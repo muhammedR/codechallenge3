@@ -1,0 +1,33 @@
+<ion-app>
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-content>
+        <ion-list id="inbox-list">
+          <ion-list-header>Food Search:</ion-list-header>
+
+          
+          <ion-searchbar [(ngModel)]="searchText" (keyup.enter)='searchFoods()'>
+          </ion-searchbar>
+      
+
+       
+        <ion-list *ngFor="let food of foodsList" (click)="onSelect(food)">
+        {{ food.brandOwner | titlecase }}
+          <br>
+        {{ food.description | titlecase }} 
+        </ion-list>
+        
+      
+        </ion-list>
+
+
+      </ion-content>
+    </ion-menu>
+
+    
+  
+    <ion-router-outlet id="main-content"> </ion-router-outlet>
+    
+
+  </ion-split-pane>
+</ion-app>
