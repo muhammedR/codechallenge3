@@ -1,5 +1,4 @@
 # Ionic Food Search Application
-## How to run code.
 ## Table of Contents
  - [Getting Started](#getting-started)
  - [App Preview](#app-preview)
