@@ -1,4 +1,4 @@
-# Ionic Food Search Application
+# Ionic Nutrition Application
 ## Table of Contents
  - [Getting Started](#getting-started)
  - [App Preview](#app-preview)
