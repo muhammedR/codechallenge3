@@ -1,4 +1,4 @@
-# Ionic Nutrition Application
+# Fitness & Nutrition Application
 ## Table of Contents
  - [Getting Started](#getting-started)
  - [App Preview](#app-preview)
